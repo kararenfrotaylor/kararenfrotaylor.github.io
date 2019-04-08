@@ -1,2 +1,2 @@
 #Kara Taylor's Professional Portfolio
-A showcase of my work.
+A showcase of my work
