@@ -1,54 +1,90 @@
 /*** typography ***/
 
-h1 { font-family: 'Nunito Sans', sans-serif;
-     font-weight: 700;
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
 
 }
 
-h2{ font-family:  'Nunito Sans', sans-serif;
-    font-weight: 800;
+h2{
+  font-family:  'Nunito Sans', sans-serif;
+  font-weight: 800;
 
 }
 
-h3 { font-family: 'Poppins', sans-serif;
-     font-weight: 600;
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 
 }
 
-h4 { font-family: 'Poppins', sans-serif;
+h4 {
+  font-family: 'Poppins', sans-serif;
 
 }
 
-h6 { font-family: 'Varela', sans-serif;
-     text-decoration: uppercase;
+h6 {
+  font-family: 'Varela', sans-serif;
+  text-decoration: uppercase;
 
 }
 
-p { font-family: 'Varela', sans-serif;
-    line-height: 28px;
+p {
+  font-family: 'Varela', sans-serif;
+  line-height: 28px;
 
 }
 
-ol { font-family: 'Varela', sans-serif;
-     line-height: 28px;
+ol {
+  font-family: 'Varela', sans-serif;
+  line-height: 28px;
 
 }
 
 
 /*** structure ***/
 
-nav.main-nav li,a { display: inline-block;
-                    font-family:  'Nunito Sans', sans-serif;
-                    font-size: 14px;
-                    font-weight: 800;
-                    list-style-type: none;
-                    text-decoration: none;
-
+nav.main-nav li,a {
+  display: inline-block;
+  font-family:  'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  list-style-type: none;
+  text-decoration: none;
 
 }
 
 
-ul.about-work-contact li,a {  display: inline-block;
+ul.about-work-contact li,a {
+  display: inline-block;
 
+}
 
+/*** index.html hero ***/
+
+.hero-container {
+  position: relative;
+  text-align: center;
+}
+
+.nav-container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.about-work-contact {
+  overflow: hidden;
+  text-align: right;
+  padding-right: 9.1%;
+}
+
+.hero-text {
+  bottom: 23%;
+  color: #F9F9FE;
+  font-size: 1.5em;
+  left: 34%;
+  line-height: 1.30;
+  position: absolute;
+  text-align: left;
 }
