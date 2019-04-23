@@ -37,27 +37,20 @@ ol { font-family: 'Varela', sans-serif;
 
 /*** structure ***/
 
-.kara-taylor-nav { display: inline-block;
-                   font-family:  'Nunito Sans', sans-serif;
-                   font-size: 14px;
-                   font-weight: 800;
-                   list-style-type: none;
-                   text-decoration: none;
-
-}
-
-.main-nav  {
-            display: inline-block;
-            font-family:  'Nunito Sans', sans-serif;
-            font-size: 14px;
-            font-weight: 800;
-            list-style-type: none;
-            text-decoration: none;
-            padding-left: 100px;
+nav.main-nav li,a { display: inline-block;
+                    font-family:  'Nunito Sans', sans-serif;
+                    font-size: 14px;
+                    font-weight: 800;
+                    list-style-type: none;
+                    text-decoration: none;
 
 
 }
 
-.kara-taylor-nav {
+
+ul.about-work-contact li,a {  display: inline-block;
+                              float: right;
+                              padding-top: 40%;
+
 
 }
