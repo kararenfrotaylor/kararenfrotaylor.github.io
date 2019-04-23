@@ -1,0 +1,63 @@
+/*** typography ***/
+
+h1 { font-family: 'Nunito Sans', sans-serif;
+     font-weight: 700;
+
+}
+
+h2{ font-family:  'Nunito Sans', sans-serif;
+    font-weight: 800;
+
+}
+
+h3 { font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+
+}
+
+h4 { font-family: 'Poppins', sans-serif;
+
+}
+
+h6 { font-family: 'Varela', sans-serif;
+     text-decoration: uppercase;
+
+}
+
+p { font-family: 'Varela', sans-serif;
+    line-height: 28px;
+
+}
+
+ol { font-family: 'Varela', sans-serif;
+     line-height: 28px;
+
+}
+
+
+/*** structure ***/
+
+.kara-taylor-nav { display: inline-block;
+                   font-family:  'Nunito Sans', sans-serif;
+                   font-size: 14px;
+                   font-weight: 800;
+                   list-style-type: none;
+                   text-decoration: none;
+
+}
+
+.main-nav  {
+            display: inline-block;
+            font-family:  'Nunito Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 800;
+            list-style-type: none;
+            text-decoration: none;
+            padding-left: 100px;
+
+
+}
+
+.kara-taylor-nav {
+
+}
