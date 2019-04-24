@@ -86,3 +86,13 @@ a,li {
   padding-top: 277px;
 
 }
+
+.folio-container {
+  float: right;
+
+}
+
+.folio-text {
+  float: left;
+
+}
