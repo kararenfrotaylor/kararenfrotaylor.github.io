@@ -41,50 +41,48 @@ ol {
 
 }
 
+a,li {
+    font-family:  'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    list-style-type: none;
+    text-decoration: none;
+    color: #F9F9FE;
 
-/*** structure ***/
+  }
 
-nav.main-nav li,a {
-  display: inline-block;
-  font-family:  'Nunito Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 800;
-  list-style-type: none;
-  text-decoration: none;
-
-}
-
-
-ul.about-work-contact li,a {
-  display: inline-block;
-
-}
 
 /*** index.html hero ***/
 
-.hero-container {
-  position: relative;
-  text-align: center;
-}
-
-.nav-container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
+.kara-taylor-nav {
+  float: left;
+  padding-left: 1%;
+  padding-top: 2%;
 }
 
 .about-work-contact {
-  overflow: hidden;
-  text-align: right;
-  padding-right: 9.1%;
+  float: right;
+  padding-right: 1%;
+  padding-top: 2%;
+  word-spacing: 230px;
+
 }
 
-.hero-text {
+.hero-container {
+  background-image: url("/images/hero1.png");
+  height: 550px;
+  width: 1600px;
+  background-size: cover;
+
+}
+
+.hero-text h1 {
   bottom: 23%;
   color: #F9F9FE;
-  font-size: 1.5em;
-  left: 34%;
+  font-size: 3em;
+  left: 45%;
   line-height: 1.30;
-  position: absolute;
-  text-align: left;
+  padding-left: 480px;
+  padding-top: 277px;
+
 }
