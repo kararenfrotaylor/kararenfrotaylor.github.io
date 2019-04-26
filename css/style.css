@@ -93,28 +93,34 @@ ol {
 }
 
 .folio-container {
-  float: right;
   width: 1600px;
-  margin: 0 auto;
-  padding-top: 10%;
-  float: right;
-
-
-}
-
-.folio-text {
-  color: #06232F;
   height: 350px;
-  width: 1600px;
+  display: inline-block;
+  padding-top: 15%;
   padding-left: 25%;
 
 }
 
-.folio-text img {
-float: right;
-
+.folio-text {
+  float: left;
+  width: 700px;
+  padding-right: 8%;
+  padding-top: 5%;
+  margin-left: -7%;
 }
+
 
 .folio-text a {
   color: #06232F;
+
+}
+
+.folio-text p {
+ font-size: 24px;
+ line-height: 36px;
+}
+
+.folio-text h3 {
+ font-size: 1.75em;
+ line-height: 1px;
 }
