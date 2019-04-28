@@ -1,3 +1,14 @@
+/*** style for site ***/
+
+* {
+  margin:0px;
+
+}
+
+body,html {
+  width: 100%;
+  height: 100%;
+}
 /*** typography ***/
 
 h1 {
@@ -41,9 +52,6 @@ ol {
 
 }
 
-
-/*** index.html hero ***/
-
 .kara-taylor-nav a {
   float: left;
   padding-left: 2%;
@@ -75,7 +83,8 @@ ol {
 .hero-container {
   background-image: url("/images/hero1.png");
   height: 650px;
-  width: 1600px;
+  width: 100%;
+  max-width: 1600px;
   background-size: cover;
   margin: 0 auto;
 
@@ -93,20 +102,20 @@ ol {
 }
 
 .folio-container {
-  width: 1600px;
+  width: 100%;
   height: 350px;
   display: inline-block;
   padding-top: 15%;
-  padding-left: 25%;
+  margin-left: 22%;
 
 }
 
 .folio-text {
   float: left;
   width: 700px;
-  padding-right: 8%;
   padding-top: 5%;
-  margin-left: -7%;
+  padding-right: 3%;
+
 }
 
 
@@ -122,5 +131,48 @@ ol {
 
 .folio-text h3 {
  font-size: 1.75em;
- line-height: 1px;
+ line-height: 40px;
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-width: 1200px)
+  and (max-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+
+    .folio-container {
+      width: 100%;
+      
+}
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px)
+   and (max-width: 1280px) {
+
+   .folio-container {
+     width: 100%;
+     font-size: 1em;
+   }
+
+   .folio-text {
+     width: 60%;
+     float: left;
+   }
+}
+/*
+
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 834px)
+  and (max-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
 }
