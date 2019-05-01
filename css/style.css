@@ -1,3 +1,14 @@
+/*** style for site ***/
+
+* {
+  margin:0px;
+
+}
+
+body,html {
+  width: 100%;
+  height: 100%;
+}
 /*** typography ***/
 
 h1 {
@@ -41,39 +52,41 @@ ol {
 
 }
 
-a,li {
-    font-family:  'Nunito Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 800;
-    list-style-type: none;
-    text-decoration: none;
-    color: #F9F9FE;
-
-  }
-
-
-/*** index.html hero ***/
-
-.kara-taylor-nav {
+.kara-taylor-nav a {
   float: left;
-  padding-left: 1%;
+  padding-left: 2%;
   padding-top: 2%;
+  font-family:  'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  list-style-type: none;
+  text-decoration: none;
+  color: #F9F9FE;
+
 }
 
-.about-work-contact {
+.about-work-contact a {
   float: right;
-  padding-right: 1%;
+  word-spacing: 5em;
+  padding: 2%;
   padding-top: 2%;
-  word-spacing: 230px;
+  font-family:  'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  list-style-type: none;
+  text-decoration: none;
+  color: #F9F9FE;
+  background-color: a:hover;
 
 }
 
 .hero-container {
   background-image: url("/images/hero1.png");
-  height: 550px;
-  width: 1600px;
+  height: 650px;
+  width: 100%;
+  max-width: 1600px;
   background-size: cover;
-  background-position: center;
+  margin: 0 auto;
 
 }
 
@@ -89,16 +102,77 @@ a,li {
 }
 
 .folio-container {
-  float: right;
   width: 100%;
-  padding-top: 20%;
+  height: 350px;
+  display: inline-block;
+  padding-top: 15%;
+  margin-left: 22%;
 
 }
 
 .folio-text {
   float: left;
-  margin-right: 300px;
-  margin-left: 15%;
-  padding-top: 3%;
+  width: 700px;
+  padding-top: 5%;
+  padding-right: 3%;
+
+}
+
+
+.folio-text a {
+  color: #06232F;
+
+}
+
+.folio-text p {
+ font-size: 24px;
+ line-height: 36px;
+}
+
+.folio-text h3 {
+ font-size: 1.75em;
+ line-height: 40px;
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-width: 1200px)
+  and (max-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+
+    .folio-container {
+      width: 100%;
+
+}
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px)
+   and (max-width: 1280px) {
+
+   .folio-container {
+     width: 100%;
+     font-size: 1em;
+   }
+
+   .folio-text {
+     width: 60%;
+     float: left;
+   }
+}
+/*
+
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 834px)
+  and (max-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
 }
