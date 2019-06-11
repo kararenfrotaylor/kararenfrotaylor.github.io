@@ -65,6 +65,8 @@ ol {
 
 }
 
+
+
 .about-work-contact a {
   float: right;
   word-spacing: 5em;
@@ -89,6 +91,15 @@ ol {
   margin: 0 auto;
 
 }
+
+.hero-container-project {
+  background-image: url("/images/project-hero-background.png");
+  height: 650px;
+  width: 100%;
+  max-width: 1600px;
+
+}
+
 
 .hero-text h1 {
   bottom: 23%;
