@@ -282,12 +282,13 @@ ol {
 }
 
 .problem-solution-container {
-
+  background-image: url("/images/imac.png");
+  background-size: 1450px 1450px;
+  background-repeat: no-repeat;
 }
 
 .problem-solution-text {
-  background-image: url("/images/imac.png");
-  width: 
+
 }
 
 .summary {
