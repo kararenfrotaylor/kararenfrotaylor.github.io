@@ -192,7 +192,7 @@ ol {
   background-image: url("/images/project-hero-background.png");
   height: 550px;
   width: 100%;
-  max-width: 1600px;
+  max-width: 1800px;
   background-size: cover;
   margin: 0 auto;
 
@@ -283,8 +283,9 @@ ol {
 
 .problem-solution-container {
   background-image: url("/images/imac.png");
-  background-size: 1450px 1450px;
   background-repeat: no-repeat;
+  background: cover;
+  width: 1800px;
 }
 
 .problem-solution-text {
